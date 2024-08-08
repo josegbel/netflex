@@ -1,0 +1,32 @@
+[versions]
+agp = "8.5.1"
+activityCompose = "1.9.1"
+compose = "1.6.11"
+composeCompiler = "2.0.0"
+exoPlayer = "1.4.0"
+kermit = "2.0.2"
+koin = "3.5.0"
+kotlin = "2.0.0"
+
+namespace = "com.example.netflex"
+compileSdk = "34"
+targetSdk = "34"
+minSdk = "28"
+jvmTarget = "1.8"
+
+[libraries]
+androidx-activityCompose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "exoPlayer" }
+kermit = { module = "co.touchlab:kermit", version.ref = "kermit" }
+koin-androidxCompose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "composeCompiler" }

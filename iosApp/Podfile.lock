@@ -1,0 +1,16 @@
+PODS:
+  - presentation (1.0)
+
+DEPENDENCIES:
+  - presentation (from `../presentation`)
+
+EXTERNAL SOURCES:
+  presentation:
+    :path: "../presentation"
+
+SPEC CHECKSUMS:
+  presentation: 02b9ffda6d9de8461ec572d372ee9d8ffc9dfa72
+
+PODFILE CHECKSUM: 4f260f490d31690c71352d7890576aef18a62579
+
+COCOAPODS: 1.11.3
